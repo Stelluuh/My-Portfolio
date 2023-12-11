@@ -11,7 +11,7 @@
 img{
     width: 100%;
     display: flex;
-    border-radius: 8cm;
+    border-radius: 100%;
 }
 
 .btn{
