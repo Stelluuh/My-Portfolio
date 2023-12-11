@@ -8,13 +8,28 @@
     box-sizing: border-box;
 }
 
-/* ----------- NavBar CSS Styles ----------- */
-
 img{
     width: 100%;
     display: flex;
     border-radius: 8cm;
 }
+
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #427D9D;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: all;
+}
+
+.btn:hover{
+    background-color: #164863;
+}
+
+/* ----------- NavBar CSS Styles ----------- */
+
 
 a{
     text-decoration: none;
@@ -67,19 +82,6 @@ nav{
     width: 70%
 }
 
-.btn{
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #427D9D;
-    border-radius: 5px;
-    cursor:pointer;
-    transition: all;
-}
-
-.btn:hover{
-    background-color: #164863;
-}
 
 /* ----------- Header CSS Styles ----------- */
 
@@ -128,3 +130,5 @@ header .content p{
     margin-bottom: 2rem;
     color: #ccc;
 }
+
+
