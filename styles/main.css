@@ -11,6 +11,7 @@
 img{
     width: 100%;
     display: flex;
+    border-radius: 1.5cm;
 }
 
 a{
@@ -56,10 +57,24 @@ nav{
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: blueviolet;
+    background-color: rgb(32, 40, 151);
     transition: all 0.3s ease;
 }
 
 .link a:hover::after{
     width: 70%
+}
+
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1d4ed8;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: all;
+}
+
+.btn:hover{
+    background-color: #1e40af;
 }
