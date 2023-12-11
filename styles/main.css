@@ -83,6 +83,18 @@ nav{
 
 /* ----------- Header CSS Styles ----------- */
 
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem
+}
+
+.blur{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px #164863;
+    z-index: 100;
+}
+
 header .content h4{
     margin-bottom: 1rem;
     color: #ccc;
