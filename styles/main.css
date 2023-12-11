@@ -13,7 +13,7 @@
 img{
     width: 100%;
     display: flex;
-    border-radius: 1.5cm;
+    border-radius: 8cm;
 }
 
 a{
@@ -93,6 +93,15 @@ nav{
     position: absolute;
     box-shadow: 0 0 1000px 50px #164863;
     z-index: 100;
+}
+
+header{
+    position: relative;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
 }
 
 header .content h4{
