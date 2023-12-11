@@ -59,7 +59,7 @@ nav{
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: rgb(32, 40, 151);
+    background-color: #427D9D;
     transition: all 0.3s ease;
 }
 
@@ -71,12 +71,21 @@ nav{
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
-    background-color: #1d4ed8;
+    background-color: #427D9D;
     border-radius: 5px;
     cursor:pointer;
     transition: all;
 }
 
 .btn:hover{
-    background-color: #1e40af;
+    background-color: #164863;
+}
+
+/* ----------- Header CSS Styles ----------- */
+
+header .content h4{
+    margin-bottom: 1rem;
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: 600;
 }
