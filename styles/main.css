@@ -18,7 +18,7 @@ img{
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
-    background-color: #427D9D;
+    background-color: #9400FF;
     border-radius: 5px;
     cursor:pointer;
     transition: all;
@@ -74,7 +74,7 @@ nav{
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #427D9D;
+    background-color: #FB2576;
     transition: all 0.3s ease;
 }
 
@@ -93,7 +93,7 @@ nav{
 
 .blur{
     position: absolute;
-    box-shadow: 0 0 1000px 50px #164863;
+    box-shadow: 0 0 1000px 50px #E26EE5;
     z-index: 100;
 }
 
@@ -153,6 +153,6 @@ header .image{
 } */
 
 header .image img{
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
 }
