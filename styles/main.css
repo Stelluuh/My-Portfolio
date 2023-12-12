@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Sacramento&display=swap');
 
 *{
     padding: 0; 
@@ -64,7 +64,7 @@ nav{
 .link a{
     position: relative;
     padding-bottom: 0.75rem;
-    color: #fff;
+    color: #DDF2FD;
 }
 
 .link a::after{
@@ -117,18 +117,42 @@ header .content h1{
     color: #fff;
     margin-bottom: 1rem;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 4rem;
 }
 
 header .content h1 span{
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #fff;
+    font-family: 'Sacramento', cursive;
+    /* -webkit-text-fill-color: transparent; */
+    /* -webkit-text-stroke: 1px #DDF2FD; */
+    font-size: 3.5rem;
+    font-weight: 600;
 }
 
 header .content p{
     margin-bottom: 2rem;
-    color: #ccc;
+    color: #DDF2FD;
 }
 
+header .image{
+    position: relative;
+}
 
+/* header .image::before{
+    content:"o";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 38rem;
+    font-weight: 400;
+    line-height: 20rem;
+    color: #164863;
+    opacity: 0.2;
+    z-index: -100;
+} */
+
+header .image img{
+    max-width: 600px;
+    margin: auto;
+}
