@@ -19,7 +19,7 @@ img{
     font-size: 1rem;
     color: #fff;
     background-color: #9400FF;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor:pointer;
     transition: all;
 }
@@ -143,3 +143,43 @@ header .image img{
     max-width: 500px;
     margin: auto;
 }
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-icons img{
+    width: 40px;
+    height: auto;
+}
+
+.social-icons button{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #9400FF;
+    border-radius: 30px;
+    cursor:pointer;
+    transition: all;
+}
+
+/* ----------- About Section CSS Styles ----------- */
+
+section .header{
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.about{
+    margin-top: 4rem;
+}
+
