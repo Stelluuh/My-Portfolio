@@ -11,7 +11,7 @@
 img{
     width: 100%;
     display: flex;
-    border-radius: 100%;
+    border-radius: 2cm;
 }
 
 .btn{
@@ -50,9 +50,9 @@ nav{
     gap: 2rem;
 }
 
-.nav-logo{
+/* .nav-logo{
     max-width: 100px;
-}
+} */
 
 .nav-links{
     list-style: none;
@@ -106,6 +106,19 @@ header{
     gap: 2rem;
 }
 
+header .logo{
+    width: 100%;
+    max-width: 350px;
+    overflow: hidden;
+}
+
+header .logo img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline display */
+}
+
+
 header .content h4{
     margin-bottom: 1rem;
     color: #ccc;
@@ -113,20 +126,21 @@ header .content h4{
     font-weight: 600;
 }
 
-header .content h1{
+/* header .content h1{
     color: #fff;
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: 400;
     line-height: 4rem;
-}
+} */
 
 header .content h1 span{
     font-family: 'Sacramento', cursive;
     /* -webkit-text-fill-color: transparent; */
     /* -webkit-text-stroke: 1px #DDF2FD; */
-    font-size: 3.5rem;
+    font-size: 6rem;
     font-weight: 600;
+    
 }
 
 header .content p{
@@ -140,26 +154,26 @@ header .image{
 
 
 header .image img{
-    max-width: 500px;
+    max-width: 400px;
     margin: auto;
 }
 
-.social-icons {
+header .social-icons {
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.social-icons a{
+header .social-icons a{
     text-decoration: none;
     color: inherit;
 }
 
-.social-icons img{
-    width: 40px;
+header .social-icons img{
+    width: 50px;
     height: auto;
 }
 
-.social-icons button{
+header .social-icons button{
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
