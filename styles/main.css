@@ -50,10 +50,6 @@ nav{
     gap: 2rem;
 }
 
-/* .nav-logo{
-    max-width: 100px;
-} */
-
 .nav-links{
     list-style: none;
     display: flex;
@@ -108,16 +104,9 @@ header{
 
 header .logo{
     width: 100%;
-    max-width: 350px;
-    overflow: hidden;
+    max-width: 600px;
+    display: flex;
 }
-
-header .logo img {
-    width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove default inline display */
-}
-
 
 header .content h4{
     margin-bottom: 1rem;
@@ -126,18 +115,8 @@ header .content h4{
     font-weight: 600;
 }
 
-/* header .content h1{
-    color: #fff;
-    margin-bottom: 1rem;
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 4rem;
-} */
-
 header .content h1 span{
     font-family: 'Sacramento', cursive;
-    /* -webkit-text-fill-color: transparent; */
-    /* -webkit-text-stroke: 1px #DDF2FD; */
     font-size: 6rem;
     font-weight: 600;
     
